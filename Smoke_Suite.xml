@@ -1,0 +1,11 @@
+<suite name="SmokeTest" parallel="false">
+  <test name="AMDTelecomTests" >
+    <classes>
+       <class name="com.cleartrip.Testdata.PlanAtripTest">
+       		<method>
+       			<include name="Searchflight()"/>
+       		</method>
+       	</class>
+    </classes>
+  </test>
+</suite>
